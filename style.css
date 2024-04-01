@@ -12,9 +12,12 @@
 --p-weight:600;
 --p-size:24px;
 --p-color: #9E9DA2;
+--card-body:#f9f9f6
 
 }
-
+body{
+    background-color: #f9f9f6;
+}
 h1{
     font-family: gilroy;
 font-size: 60.73px;
@@ -22,6 +25,9 @@ font-weight: 800;
 line-height: 65.91px;
 text-align: left;
 
+}
+.custom-card-body{
+    background-color: var(--card-body);
 }
 
 p{
@@ -94,4 +100,12 @@ font-weight: 800;
 line-height: 50.35px;
 text-align: right;
 
+}
+.num{
+    font-family: Gilroy;
+font-size: 88px;
+font-weight: 500;
+line-height: 118.8px;
+text-align: left;
+color: #75BF7A;
 }
