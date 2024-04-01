@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "gilroy";
+    
+    src: url(fonts/Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: "gilroy-black";
+    src: url(fonts/Gilroy-Light.ttf);
+}
+:root{
+--p-font:gilroy-black;
+--p-weight:600;
+--p-size:24px;
+--p-color: #9E9DA2;
+
+}
+
+h1{
+    font-family: gilroy;
+font-size: 60.73px;
+font-weight: 800;
+line-height: 65.91px;
+text-align: left;
+
+}
+
+p{
+    font-family: var(--p-font);
+    font-weight: var(--p-weight);
+    font-size: var(--p-size);
+    color: var(--p-color);
+    line-height: 28px;}
+.bg{
+    background-color:  #75BF7A;
+ 
+top: 897px;
+left: 80px;
+gap: 0px;
+border-radius: 10px 10px 10px 10px;
+opacity: 0px;
+
+    
+}
+.p{
+    width: 246px;
+height: 56px;
+top: 952px;
+left: 152px;
+gap: 0px;
+opacity: 0px;
+
+}
+.heading{
+    font-family: Gilroy;
+font-size: 46.39px;
+font-weight: 800;
+line-height: 50.35px;
+text-align: left;
+color: black;
+
+}
+span{
+    font-family: Gilroy;
+font-size: 46.39px;
+font-weight: 800;
+line-height: 50.35px;
+text-align: left;
+color: #75BF7A;
+
+}
+.lorem{
+    width: 620px;
+height: 96px;
+top: 1267px;
+left: 410px;
+gap: 0px;
+opacity: 0px;
+
+}
+.img{
+    width: 60.82px;
+height: 60.82px;
+top: 1462px;
+left: 419px;
+gap: 0px;
+border: 0.54px 0px 0px 0px;
+opacity: 0px;
+
+}
+h3{
+    font-family: Gilroy;
+font-size: 22px;
+font-weight: 800;
+line-height: 50.35px;
+text-align: right;
+
+}
