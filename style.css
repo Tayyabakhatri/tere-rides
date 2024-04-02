@@ -121,7 +121,7 @@ line-height: 26.69px;
 text-align: left;}
 
 
-.footer-head .footer-p{
+.footer-head #footer-p{
     font-family: Gilroy-regular;
 font-size: 18px;
 font-weight: 400;
@@ -129,7 +129,7 @@ line-height: 21.6px;
 text-align: left;
 
 }
-.rights{
+#rights{
     color: #75BF7A;
     text-align: center;
     font-size:16px; 
