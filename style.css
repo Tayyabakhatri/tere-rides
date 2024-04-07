@@ -69,7 +69,7 @@ text-align: left;
 color: black;
 
 }
-span{
+num{
     font-family: Gilroy;
 font-size: 46.39px;
 font-weight: 800;
@@ -133,4 +133,10 @@ text-align: left;
     color: #75BF7A;
     text-align: center;
     font-size:16px; 
+}
+#bg{
+    background-image: url(images/Group\ 3693.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    
 }
